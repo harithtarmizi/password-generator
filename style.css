@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background: #1C1C1C;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-section {
+	height: 550px;
+	width: 550px;
+	left: 62px;
+	top: 64px;
+	border-radius: 0px;
+	background: #1F2937 !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-title {
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: -0.025em;
+}
+
+.green-text {
+	color: #4ADF86;
+}
+
+.sub-title {
+	font-size: 20px;
+	line-height: 28px;
+	color: #D5D4D8;
+}
+
+.generate-passwprd-btn {
+	background: #10B981;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	border: none;
+	border-radius: 6px;
+	padding: 9px 15px;
+	margin-top: 50px;
+	/* text-shadow: 0 0 3px #000; */
+}
+
+.generate-passwprd-btn:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+hr {
+	stroke: solid;
+	border: 1px solid #2F3E53;
+	margin: 30px 0;
+}
+
+.gw-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gw-field {
+	background-color: #273549;
+	border-radius: 6px;
+	width: 180px;
+	height: 39px;
+	
+}
+
+.generated-paswords {
+	text-align: center;
+	font-family: 'Anonymous Pro', monospace;
+	color: #55F991;
+	font-size: 16px;
+	padding: 10px 20px;
+	margin: 0;
+}
